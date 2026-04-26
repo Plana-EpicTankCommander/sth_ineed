@@ -13,6 +13,6 @@
 &emsp;但中国的故事并未就此结束，她的旅程将在接下来的更新中继续，敬请期待战后内容！  
 ![如果你能看到这个说明,那就是图片根本加载不出来](大亚洲战争.jpg) 
 
-&emsp;作者：罗门圣徒 https://www.bilibili.com/read/cv42160184/?spm_id_from=333.1391.0.0&opus_fallback=1 出处：bilibili  
+&emsp;作者：罗门圣徒，出处：bilibili  
 
 ![如果你能看到这个说明,那就是图片根本加载不出来](调整航线.png) 
