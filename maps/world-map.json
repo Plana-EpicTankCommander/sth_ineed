@@ -7,6 +7,7 @@
     "source": "Natural Earth 1:10m Admin-1 + DataV China city boundaries",
     "sourceUrl": "https://www.naturalearthdata.com/",
     "license": "Natural Earth public domain; China city boundaries from DataV",
+    "outlineCountries": ["CHN"],
     "projection": "Natural Earth",
     "graticuleStep": 10,
     "width": 100000,
