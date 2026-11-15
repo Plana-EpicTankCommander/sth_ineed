@@ -1,7 +1,15 @@
 # 地图数据
 
-`world-map.json` 是站点地图插件的唯一基础素材，由 `webfilesproject` 仓库的
-`scripts/build-map-data.mjs` 从 Natural Earth 1:10m Admin-1 数据生成。
+地图插件支持多个按区域切分的数据文件，均由 `webfilesproject` 仓库从 Natural Earth 1:10m Admin-1 数据生成。
+
+## 可用文件
+
+| 文件 | 范围 |
+|------|------|
+| `world-map.json` | 全球 250 个国家、4,594 个一级行政区 |
+| `east-asia-map.json` | 中国、香港、澳门、日本、韩国、朝鲜、蒙古、台湾，共 8 个国家 / 169 个一级行政区 |
+
+`east-asia-map.json` 由 `scripts/build-region-map.mjs` 从世界数据裁剪生成，渲染方式与 `world-map.json` 完全相同。
 
 文件采用混合缩进，便于直接阅读和改色：
 
@@ -46,8 +54,13 @@
 在 `webfilesproject` 仓库执行：
 
 ```bash
+# 世界地图
 npm run build:map-data
 # 生成 .map-cache/world-map.json，复制到本目录后提交
+
+# 区域地图（默认东亚）
+npm run build:map-region
+# 生成 .map-cache/east-asia-map.json，复制到本目录后提交
 ```
 
 数据来源：Natural Earth 1:10m Admin-1 States, Provinces（公有领域）。
