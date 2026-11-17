@@ -13,7 +13,7 @@
     "width": 100000,
     "height": 44580,
     "countries": 250,
-    "divisions": 4928,
+    "divisions": 4911,
     "arcs": 18559,
     "generated": "2026-11-15"
   },
@@ -1844,11 +1844,7 @@
         8088, 8089, 8090, 8093, 8094, 8095, 8096, 8097, 8098, 14266, 14267, 14268, 14269, 14273,
         14275, 14277, 14278, 14285, 14288, 14291, 14297, 14300, 14303, 14307, 14309, 14311, 14312, 14314
       ],
-      "divisions": [
-        "HKG001", "HKG002", "HKG003", "HKG004", "HKG005", "HKG006", "HKG007", "HKG008",
-        "HKG009", "HKG010", "HKG011", "HKG012", "HKG013", "HKG014", "HKG015", "HKG016",
-        "HKG017", "HKG018"
-      ]
+      "divisions": ["HKG001"]
     },
     {
       "code": "HMD",
@@ -20042,146 +20038,10 @@
     {
       "id": "HKG001",
       "country": "HKG",
-      "name": "Central and Western",
-      "nameZh": "中西区",
-      "color": "#947851",
-      "polygons": [[[14273, 14274, -14271]]]
-    },
-    {
-      "id": "HKG002",
-      "country": "HKG",
-      "name": "Eastern",
-      "nameZh": "东区",
-      "color": "#947851",
-      "polygons": [[[14277, -14273, -14277]]]
-    },
-    {
-      "id": "HKG003",
-      "country": "HKG",
-      "name": "Islands",
-      "nameZh": "群岛",
+      "name": "Hong Kong",
+      "nameZh": "香港",
       "color": "#816741",
-      "polygons": [[[14266]], [[14267, 14268]]]
-    },
-    {
-      "id": "HKG004",
-      "country": "HKG",
-      "name": "Kowloon City",
-      "nameZh": "九龙城",
-      "color": "#816741",
-      "polygons": [[[14303, 14304, 14305, -14295, 14306, -14302]]]
-    },
-    {
-      "id": "HKG005",
-      "country": "HKG",
-      "name": "Kwai Tsing",
-      "nameZh": "葵青",
-      "color": "#816741",
-      "polygons": [[[14311, -14284, -14297, -14311]]]
-    },
-    {
-      "id": "HKG006",
-      "country": "HKG",
-      "name": "Kwun Tong",
-      "nameZh": "观塘",
-      "color": "#816741",
-      "polygons": [[[14300, 14301, 14302, -14299]]]
-    },
-    {
-      "id": "HKG007",
-      "country": "HKG",
-      "name": "North",
-      "nameZh": "北",
-      "color": "#947851",
-      "polygons": [[[8088, 8089, 8090, 8091, 8092, 8093, 8094, 8095, 8096, 8097, 8098]]]
-    },
-    {
-      "id": "HKG008",
-      "country": "HKG",
-      "name": "Sai Kung",
-      "nameZh": "西贡",
-      "color": "#947851",
-      "polygons": [[[14297, 14298, 14299, -14293, -14290]]]
-    },
-    {
-      "id": "HKG009",
-      "country": "HKG",
-      "name": "Sha Tin",
-      "nameZh": "沙田",
-      "color": "#816741",
-      "polygons": [[[14291, -14291, 14292, 14293, 14294, 14295, 14296, -14283, -14287]]]
-    },
-    {
-      "id": "HKG010",
-      "country": "HKG",
-      "name": "Sham Shui Po",
-      "nameZh": "深水埗",
-      "color": "#816741",
-      "polygons": [[[14309, 14310, -14296, -14306, -14309]]]
-    },
-    {
-      "id": "HKG011",
-      "country": "HKG",
-      "name": "Southern",
-      "nameZh": "南区",
-      "color": "#947851",
-      "polygons": [[[14269, 14270, 14271, 14272]]]
-    },
-    {
-      "id": "HKG012",
-      "country": "HKG",
-      "name": "Tai Po",
-      "nameZh": "大埔",
-      "color": "#947851",
-      "polygons": [[[14285, 14286, -14282, 14287, -8092]], [[14288, 14289, 14290]]]
-    },
-    {
-      "id": "HKG013",
-      "country": "HKG",
-      "name": "Tsuen Wan",
-      "nameZh": "荃湾",
-      "color": "#816741",
-      "polygons": [[[14278, 14279, 14280, 14281, 14282, 14283]]]
-    },
-    {
-      "id": "HKG014",
-      "country": "HKG",
-      "name": "Tuen Mun",
-      "nameZh": "屯门",
-      "color": "#816741",
-      "polygons": [[[14312, 14313, -14280]]]
-    },
-    {
-      "id": "HKG015",
-      "country": "HKG",
-      "name": "Wan Chai",
-      "nameZh": "湾仔",
-      "color": "#816741",
-      "polygons": [[[14275, 14276, -14272, -14275]]]
-    },
-    {
-      "id": "HKG016",
-      "country": "HKG",
-      "name": "Wong Tai Sin",
-      "nameZh": "黄大仙",
-      "color": "#816741",
-      "polygons": [[[-14294, -14300, -14303, -14307]]]
-    },
-    {
-      "id": "HKG017",
-      "country": "HKG",
-      "name": "Yau Tsim Mong",
-      "nameZh": "油尖旺",
-      "color": "#947851",
-      "polygons": [[[14307, 14308, -14305]]]
-    },
-    {
-      "id": "HKG018",
-      "country": "HKG",
-      "name": "Yuen Long",
-      "nameZh": "元朗",
-      "color": "#947851",
-      "polygons": [[[14314, -8093, -14288, -14281, -14314]]]
+      "polygons": [[[8088, 8089, 8090, 14285, 14291, 14288, 14297, 14300, 14303, 14307, 14309, 14311, 14278, 14312, 14314, 8093, 8094, 8095, 8096, 8097, 8098]], [[14266]], [[14267, 14268]], [[14269, 14273, 14275, 14277]]]
     },
     {
       "id": "HMD001",
